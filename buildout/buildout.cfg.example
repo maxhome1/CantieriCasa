@@ -1,0 +1,16 @@
+# Copy this file to buildout.cfg and use it to customize your buildout
+# configuration.
+[buildout]
+extends =
+
+# XXX: choose a configuration
+#    conf/development.cfg
+#    conf/staging.cfg
+#    conf/demo.cfg
+#    conf/production.cfg
+
+# Uncomment this line to compile and install postgresql
+#    conf/postgresql.cfg
+
+# Uncomment this line to compile sphinx documentation
+#    docs/sphinx.cfg
