@@ -1,0 +1,52 @@
+---
+- hosts: cantiericasa
+  remote_user: webapp
+
+  vars:
+    # Odoo user and password
+    odoo_db_users: odoo
+    odoo_db_password: a1a020aA
+
+    postgresql_version: 9.4
+
+    # List of databases to be created
+    postgresql_databases:
+      - name: "{{ odoo_db_users }}"
+        hstore: no         # flag to install the hstore extension on this database (yes/no)
+        uuid_ossp: yes      # flag to install the uuid-ossp extension on this database (yes/no)
+
+    # List of users to be created
+    postgresql_users:
+      - name: "{{ odoo_db_users }}"
+        pass: "{{ odoo_db_password }}"
+        encrypted: no       # denotes if the password is already encrypted.
+
+    # List of user privileges to be applied
+    postgresql_user_privileges:
+      - name: "{{ odoo_db_users }}" # user name
+        db: "{{ odoo_db_users }}"   # database
+        priv: "ALL"                 # privilege string format: example: INSERT,UPDATE/table:SELECT/anothertable:ALL
+        role_attr_flags: "CREATEDB" # role attribute flags
+
+
+  pre_tasks:
+
+    - name: Override postgresql.conf.j2 template
+      copy: src=templates/postgresql.conf.j2 dest=roles/ANXS.postgresql/templates/postgresql.conf.j2
+      delegate_to: 127.0.0.1
+      tags:
+      - install
+
+    # add git.abstract.it and github.com into know_hosts
+    - shell: ssh-keyscan -p 22220 140.164.7.189 >> ~/.ssh/known_hosts
+      tags:
+      - install
+
+    - shell: ssh-keyscan github.com >> ~/.ssh/known_hosts
+      tags:
+      - install
+
+
+  roles:
+    - {role: ANXS.postgresql, sudo: yes, tags: ['install']}
+    - {role: odoo, sudo: no}

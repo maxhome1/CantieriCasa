@@ -1,0 +1,8 @@
+description "{{ project_name }} supervisor"
+
+start on runlevel [2345]
+stop on runlevel [!2345]
+
+respawn
+
+exec {{ buildout_destination }}/bin/supervisord --nodaemon

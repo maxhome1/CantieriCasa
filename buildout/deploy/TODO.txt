@@ -1,0 +1,7 @@
+1. Run con --update=<pacchetti in sviluppo> consente di aggiornare l'istanza ogni giro
+
+2. Attivare script di monitoraggio
+
+3. Attivare Backup
+
+4. Installare nginx

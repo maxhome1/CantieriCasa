@@ -1,0 +1,3 @@
+---
+# All hosts on UP provider are behind a proxy with this address
+ansible_ssh_host: 140.164.7.189

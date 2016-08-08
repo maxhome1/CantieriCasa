@@ -1,0 +1,15 @@
+# - include: prerequisites.yml
+#   sudo: yes
+#   tags:
+#     - odoo
+#     - odoo_prerequisites
+
+
+- include: install.yml
+  tags:
+    - odoo
+
+# - include: postinstall.yml
+#   tags:
+#     - odoo
+#     - odoo_postinstall

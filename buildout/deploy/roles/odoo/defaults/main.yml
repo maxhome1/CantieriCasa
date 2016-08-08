@@ -1,0 +1,5 @@
+project_name: cantiericasa
+buildout_repository: git@git.abstract.it:cantiericasa/buildout.git
+buildout_version: HEAD
+buildout_destination: /srv/webapp/staging/odoo
+buildout_file: conf/production.cfg

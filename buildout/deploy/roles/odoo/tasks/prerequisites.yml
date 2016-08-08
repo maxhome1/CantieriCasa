@@ -1,0 +1,18 @@
+- name: Odoo dependencies - Repository
+  apt_repository: repo="deb http://apt.anybox.fr/openerp common main"
+        state=present
+  when: ansible_os_family == 'Debian'
+
+
+- name: Odoo dependencies - Repository key
+  apt_key: url=http://anybox.fr/docs/clef-de-signature-de-paquets/at_download/file/anybox_packagers.asc
+           state=present
+  when: ansible_os_family == 'Debian'
+
+
+- name: Odoo dependencies - Installation
+  apt: name=openerp-server-system-build-deps
+       install_recommends=False
+       update_cache=yes
+       state=present
+  when: ansible_os_family == 'Debian'

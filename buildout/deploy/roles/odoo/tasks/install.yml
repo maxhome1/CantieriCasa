@@ -1,0 +1,58 @@
+- name: Odoo buildout clone
+  git: repo={{ buildout_repository }}
+       dest={{ buildout_destination }}
+       version={{ buildout_version }}
+       accept_hostkey=yes
+  tags:
+    - install
+    - update
+
+
+- name: Odoo add buildout.cfg
+  template:
+    src: buildout.cfg.j2
+    dest: "{{ buildout_destination }}/buildout.cfg"
+  tags:
+    - install
+    - update
+
+# It doesn't work without buildout execution
+# but it is necessary to configure it
+# before the buildout in order to make possible
+# to use it to start/restart Odoo server
+- name: Odoo service configuration
+  template:
+    src: service.j2
+    dest: "/etc/init/{{ project_name }}.conf"
+  sudo: yes
+  tags:
+    - install
+
+
+- name: Odoo run buildout
+  shell: python2.7 bootstrap.py && ./bin/buildout -Nv
+         chdir={{ buildout_destination }}
+  register: buildout
+  # async: 1000
+  # poll: 0
+  tags:
+    - install
+    - update
+  notify:
+    - supervisor restart
+
+- debug: var=buildout.stdout
+  tags:
+    - install
+    - update
+
+- debug: var=buildout.stderr
+  tags:
+    - install
+    - update
+
+
+# - async_status: jid={{ buildout.ansible_job_id }}
+#   register: job_result
+#   until: job_result.finished
+#   retries: 30

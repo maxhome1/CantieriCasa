@@ -1,0 +1,2 @@
+# put any staging variable here
+buildout_file: conf/staging.cfg
