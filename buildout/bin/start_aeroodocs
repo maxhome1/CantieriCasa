@@ -1,0 +1,3 @@
+#!/bin/sh
+
+/home/openerp/Odoo/buildout/parts/aeroo_docs/aeroo-docs start -n -d /home/openerp/Odoo/buildout/var/spool_aeroo_docs -l /home/openerp/Odoo/buildout/var/log/aeroo_docs.log

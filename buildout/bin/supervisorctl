@@ -1,0 +1,15 @@
+#!/home/openerp/.virtualenvs/cc/bin/python
+
+import sys
+sys.path[0:0] = [
+  '/home/openerp/Odoo/buildout/eggs/supervisor-3.1.3-py2.7.egg',
+  '/home/openerp/.virtualenvs/cc/lib/python2.7/site-packages',
+  '/home/openerp/Odoo/buildout/eggs/meld3-1.0.2-py2.7.egg',
+  ]
+
+import sys; sys.argv[1:1] = ["-c","/home/openerp/Odoo/buildout/parts/supervisor/supervisord.conf"]
+
+import supervisor.supervisorctl
+
+if __name__ == '__main__':
+    sys.exit(supervisor.supervisorctl.main(sys.argv[1:]))

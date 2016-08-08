@@ -3,10 +3,10 @@
 import sys
 sys.path[0:0] = [
   '/home/openerp/.virtualenvs/cc/lib/python2.7/site-packages',
-  '/home/openerp/Odoo/buildout/eggs/zc.buildout-2.4.0-py2.7.egg',
+  '/home/openerp/Odoo/buildout/src/ccmigration/src',
   ]
 
-import zc.buildout.buildout
+import ccmigration.script
 
 if __name__ == '__main__':
-    sys.exit(zc.buildout.buildout.main())
+    sys.exit(ccmigration.script.main())
