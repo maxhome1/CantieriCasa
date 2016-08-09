@@ -1,0 +1,187 @@
+2015-10-20 22:53:40,002 INFO RPC interface 'supervisor' initialized
+2015-10-20 22:53:40,002 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2015-10-20 22:53:40,003 INFO daemonizing the supervisord process
+2015-10-20 22:53:40,003 INFO supervisord started with pid 20028
+2015-10-20 22:53:41,006 INFO spawned: 'soffice' with pid 20029
+2015-10-20 22:53:41,009 INFO spawned: 'aeroo-docs' with pid 20030
+2015-10-20 22:53:41,012 INFO spawned: 'openerp' with pid 20031
+2015-10-20 22:53:42,437 INFO success: soffice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-10-20 22:53:42,437 INFO success: aeroo-docs entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-10-20 22:53:42,437 INFO success: openerp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-10-20 22:53:53,876 INFO stopped: openerp (exit status 0)
+2015-10-20 22:53:54,884 INFO spawned: 'openerp' with pid 20078
+2015-10-20 22:53:55,887 INFO success: openerp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-10-20 22:58:25,666 INFO stopped: openerp (exit status 0)
+2015-10-20 22:58:56,826 INFO spawned: 'openerp' with pid 20674
+2015-10-20 22:58:57,828 INFO success: openerp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-10-20 23:04:06,107 WARN received SIGTERM indicating exit request
+2015-10-20 23:04:06,110 INFO waiting for soffice, aeroo-docs, openerp to die
+2015-10-20 23:04:06,183 INFO stopped: openerp (exit status 0)
+2015-10-20 23:04:06,184 INFO stopped: aeroo-docs (terminated by SIGTERM)
+2015-10-20 23:04:06,200 INFO stopped: soffice (exit status 0)
+2015-10-20 23:04:15,507 INFO RPC interface 'supervisor' initialized
+2015-10-20 23:04:15,507 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2015-10-20 23:04:15,508 INFO daemonizing the supervisord process
+2015-10-20 23:04:15,509 INFO supervisord started with pid 20727
+2015-10-20 23:04:16,512 INFO spawned: 'soffice' with pid 20729
+2015-10-20 23:04:16,516 INFO spawned: 'aeroo-docs' with pid 20730
+2015-10-20 23:04:16,522 INFO spawned: 'openerp' with pid 20731
+2015-10-20 23:04:16,796 INFO exited: aeroo-docs (exit status 0; not expected)
+2015-10-20 23:04:17,745 INFO success: soffice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-10-20 23:04:17,745 INFO success: openerp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-10-20 23:04:18,758 INFO spawned: 'aeroo-docs' with pid 20763
+2015-10-20 23:04:19,011 INFO exited: aeroo-docs (exit status 0; not expected)
+2015-10-20 23:04:21,519 INFO spawned: 'aeroo-docs' with pid 20773
+2015-10-20 23:04:21,764 INFO exited: aeroo-docs (exit status 0; not expected)
+2015-10-20 23:04:24,320 INFO stopped: openerp (exit status 0)
+2015-10-20 23:04:25,322 INFO spawned: 'aeroo-docs' with pid 20782
+2015-10-20 23:04:25,332 INFO spawned: 'openerp' with pid 20784
+2015-10-20 23:04:25,612 INFO exited: aeroo-docs (exit status 0; not expected)
+2015-10-20 23:04:25,612 INFO gave up: aeroo-docs entered FATAL state, too many start retries too quickly
+2015-10-20 23:04:26,592 INFO success: openerp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-10-20 23:05:01,463 INFO spawned: 'aeroo-docs' with pid 20800
+2015-10-20 23:05:01,725 INFO exited: aeroo-docs (exit status 0; not expected)
+2015-10-20 23:05:02,729 INFO spawned: 'aeroo-docs' with pid 20809
+2015-10-20 23:05:02,968 INFO exited: aeroo-docs (exit status 0; not expected)
+2015-10-20 23:05:04,988 INFO spawned: 'aeroo-docs' with pid 20818
+2015-10-20 23:05:05,235 INFO exited: aeroo-docs (exit status 0; not expected)
+2015-10-20 23:05:09,140 INFO spawned: 'aeroo-docs' with pid 20828
+2015-10-20 23:05:09,346 INFO exited: aeroo-docs (exit status 0; not expected)
+2015-10-20 23:05:10,348 INFO gave up: aeroo-docs entered FATAL state, too many start retries too quickly
+2015-10-20 23:11:59,648 INFO stopped: openerp (exit status 0)
+2015-10-20 23:12:04,101 INFO stopped: soffice (exit status 0)
+2015-10-20 23:13:11,418 INFO spawned: 'soffice' with pid 21034
+2015-10-20 23:13:12,421 INFO success: soffice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-10-20 23:13:17,955 INFO spawned: 'aeroo-docs' with pid 21058
+2015-10-20 23:13:18,317 INFO exited: aeroo-docs (exit status 0; not expected)
+2015-10-20 23:13:19,320 INFO spawned: 'aeroo-docs' with pid 21067
+2015-10-20 23:13:19,563 INFO exited: aeroo-docs (exit status 0; not expected)
+2015-10-20 23:13:21,568 INFO spawned: 'aeroo-docs' with pid 21076
+2015-10-20 23:13:21,821 INFO exited: aeroo-docs (exit status 0; not expected)
+2015-10-20 23:13:24,826 INFO spawned: 'aeroo-docs' with pid 21085
+2015-10-20 23:13:25,077 INFO exited: aeroo-docs (exit status 0; not expected)
+2015-10-20 23:13:26,078 INFO gave up: aeroo-docs entered FATAL state, too many start retries too quickly
+2015-10-21 09:53:33,109 INFO spawned: 'openerp' with pid 25066
+2015-10-21 09:53:34,307 INFO success: openerp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-10-21 09:54:06,190 WARN killing 'openerp' (25066) with SIGKILL
+2015-10-21 09:54:06,210 INFO stopped: openerp (terminated by SIGKILL)
+2015-10-21 11:38:50,292 INFO spawned: 'openerp' with pid 27038
+2015-10-21 11:38:51,511 INFO success: openerp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-10-23 18:33:32,246 INFO stopped: openerp (exit status 0)
+2015-10-23 18:36:23,908 INFO spawned: 'openerp' with pid 29223
+2015-10-23 18:36:25,798 INFO success: openerp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-10-27 07:38:44,170 INFO stopped: openerp (exit status 0)
+2015-10-27 07:38:45,178 INFO spawned: 'openerp' with pid 29438
+2015-10-27 07:38:46,266 INFO success: openerp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-10-30 10:43:29,411 INFO stopped: soffice (exit status 0)
+2015-10-30 10:47:34,219 INFO spawned: 'aeroo-docs' with pid 17779
+2015-10-30 10:47:35,218 INFO success: aeroo-docs entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-10-30 10:47:46,796 INFO spawned: 'soffice' with pid 17784
+2015-10-30 10:47:47,798 INFO success: soffice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-10-30 12:31:24,998 INFO stopped: openerp (exit status 0)
+2015-10-30 12:42:45,453 INFO spawned: 'openerp' with pid 19447
+2015-10-30 12:42:46,455 INFO success: openerp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-11-06 13:06:51,702 INFO stopped: openerp (exit status 0)
+2015-11-06 13:07:52,112 INFO spawned: 'openerp' with pid 15594
+2015-11-06 13:07:53,245 INFO success: openerp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-12-18 16:45:53,103 INFO stopped: openerp (exit status 0)
+2015-12-18 16:45:53,111 INFO spawned: 'openerp' with pid 10080
+2015-12-18 16:45:54,112 INFO success: openerp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-12-20 09:26:16,658 INFO stopped: openerp (exit status 0)
+2015-12-20 09:26:16,668 INFO spawned: 'openerp' with pid 32080
+2015-12-20 09:26:18,652 INFO success: openerp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-12-20 09:30:03,540 INFO stopped: openerp (exit status 0)
+2015-12-20 09:30:04,549 INFO spawned: 'openerp' with pid 32582
+2015-12-20 09:30:05,793 INFO success: openerp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-12-21 09:53:37,098 INFO stopped: openerp (exit status 0)
+2015-12-21 10:24:10,820 INFO spawned: 'openerp' with pid 14332
+2015-12-21 10:24:11,832 INFO success: openerp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-12-21 10:41:15,290 INFO stopped: openerp (exit status 0)
+2015-12-21 10:41:16,301 INFO spawned: 'openerp' with pid 14635
+2015-12-21 10:41:17,475 INFO success: openerp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-12-21 11:37:50,701 WARN killing 'openerp' (14635) with SIGKILL
+2015-12-21 11:37:50,772 INFO stopped: openerp (terminated by SIGKILL)
+2015-12-21 11:37:52,776 INFO spawned: 'openerp' with pid 16297
+2015-12-21 11:37:53,961 INFO success: openerp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-02-23 17:42:11,038 WARN killing 'openerp' (16297) with SIGKILL
+2016-02-23 17:42:11,144 INFO stopped: openerp (terminated by SIGKILL)
+2016-02-23 17:42:12,212 INFO spawned: 'openerp' with pid 7761
+2016-02-23 17:42:13,214 INFO success: openerp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-03-08 16:43:44,170 WARN killing 'openerp' (7761) with SIGKILL
+2016-03-08 16:43:44,385 INFO stopped: openerp (terminated by SIGKILL)
+2016-03-08 16:43:46,397 INFO spawned: 'openerp' with pid 7160
+2016-03-08 16:43:47,399 INFO success: openerp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-03-22 19:57:44,414 WARN killing 'openerp' (7160) with SIGKILL
+2016-03-22 19:57:44,571 INFO stopped: openerp (terminated by SIGKILL)
+2016-03-22 19:57:46,592 INFO spawned: 'openerp' with pid 17273
+2016-03-22 19:57:47,594 INFO success: openerp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-03-24 10:35:30,270 INFO stopped: openerp (exit status 0)
+2016-03-24 10:35:31,287 INFO spawned: 'openerp' with pid 7340
+2016-03-24 10:35:32,289 INFO success: openerp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-03-24 10:42:49,337 INFO stopped: openerp (exit status 0)
+2016-03-24 10:44:44,501 INFO spawned: 'openerp' with pid 7609
+2016-03-24 10:44:45,725 INFO success: openerp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-04-05 12:05:34,948 WARN killing 'openerp' (7609) with SIGKILL
+2016-04-05 12:05:35,122 INFO stopped: openerp (terminated by SIGKILL)
+2016-04-05 12:05:37,137 INFO spawned: 'openerp' with pid 14477
+2016-04-05 12:05:38,140 INFO success: openerp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-04-11 12:51:03,900 WARN killing 'openerp' (14477) with SIGKILL
+2016-04-11 12:51:04,070 INFO stopped: openerp (terminated by SIGKILL)
+2016-04-11 12:51:06,080 INFO spawned: 'openerp' with pid 24569
+2016-04-11 12:51:07,083 INFO success: openerp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-04-11 12:59:28,999 INFO stopped: aeroo-docs (terminated by SIGTERM)
+2016-04-11 12:59:31,006 INFO spawned: 'aeroo-docs' with pid 25216
+2016-04-11 12:59:31,328 INFO stopped: soffice (exit status 0)
+2016-04-11 12:59:31,587 INFO exited: aeroo-docs (exit status 0; not expected)
+2016-04-11 12:59:32,589 INFO spawned: 'aeroo-docs' with pid 25220
+2016-04-11 12:59:32,593 INFO spawned: 'soffice' with pid 25221
+2016-04-11 12:59:32,832 INFO exited: aeroo-docs (exit status 0; not expected)
+2016-04-11 12:59:33,834 INFO success: soffice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-04-11 12:59:35,058 INFO spawned: 'aeroo-docs' with pid 25248
+2016-04-11 12:59:35,272 INFO exited: aeroo-docs (exit status 0; not expected)
+2016-04-11 12:59:38,277 INFO spawned: 'aeroo-docs' with pid 25257
+2016-04-11 12:59:38,559 INFO exited: aeroo-docs (exit status 0; not expected)
+2016-04-11 12:59:39,560 INFO gave up: aeroo-docs entered FATAL state, too many start retries too quickly
+2016-04-11 12:59:44,885 INFO stopped: soffice (exit status 0)
+2016-04-11 12:59:46,889 INFO spawned: 'soffice' with pid 25267
+2016-04-11 12:59:47,892 INFO success: soffice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-04-12 10:59:20,268 INFO spawned: 'aeroo-docs' with pid 9028
+2016-04-12 10:59:20,661 INFO exited: aeroo-docs (exit status 0; not expected)
+2016-04-12 10:59:22,624 INFO spawned: 'aeroo-docs' with pid 9037
+2016-04-12 10:59:22,889 INFO exited: aeroo-docs (exit status 0; not expected)
+2016-04-12 10:59:24,893 INFO spawned: 'aeroo-docs' with pid 9046
+2016-04-12 10:59:25,282 INFO exited: aeroo-docs (exit status 0; not expected)
+2016-04-12 10:59:28,288 INFO spawned: 'aeroo-docs' with pid 9056
+2016-04-12 10:59:28,623 INFO exited: aeroo-docs (exit status 0; not expected)
+2016-04-12 10:59:29,430 INFO gave up: aeroo-docs entered FATAL state, too many start retries too quickly
+2016-04-12 11:07:19,805 INFO stopped: soffice (exit status 0)
+2016-04-12 11:07:30,817 WARN killing 'openerp' (24569) with SIGKILL
+2016-04-12 11:07:30,867 INFO stopped: openerp (terminated by SIGKILL)
+2016-04-12 11:07:32,872 INFO spawned: 'soffice' with pid 9106
+2016-04-12 11:07:33,874 INFO success: soffice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-04-12 11:07:33,876 INFO spawned: 'aeroo-docs' with pid 9130
+2016-04-12 11:07:34,169 INFO exited: aeroo-docs (exit status 0; not expected)
+2016-04-12 11:07:35,173 INFO spawned: 'aeroo-docs' with pid 9139
+2016-04-12 11:07:35,177 INFO spawned: 'openerp' with pid 9140
+2016-04-12 11:07:35,501 INFO exited: aeroo-docs (exit status 0; not expected)
+2016-04-12 11:07:36,314 INFO success: openerp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-04-12 11:07:37,613 INFO spawned: 'aeroo-docs' with pid 9154
+2016-04-12 11:07:37,863 INFO exited: aeroo-docs (exit status 0; not expected)
+2016-04-12 11:07:40,896 INFO spawned: 'aeroo-docs' with pid 9164
+2016-04-12 11:07:41,276 INFO exited: aeroo-docs (exit status 0; not expected)
+2016-04-12 11:07:42,277 INFO gave up: aeroo-docs entered FATAL state, too many start retries too quickly
+2016-04-19 19:08:51,200 INFO spawned: 'aeroo-docs' with pid 1424
+2016-04-19 19:08:51,634 INFO exited: aeroo-docs (exit status 0; not expected)
+2016-04-19 19:08:52,637 INFO spawned: 'aeroo-docs' with pid 1433
+2016-04-19 19:08:52,919 INFO exited: aeroo-docs (exit status 0; not expected)
+2016-04-19 19:08:54,922 INFO spawned: 'aeroo-docs' with pid 1441
+2016-04-19 19:08:55,282 INFO exited: aeroo-docs (exit status 0; not expected)
+2016-04-19 19:08:58,286 INFO spawned: 'aeroo-docs' with pid 1451
+2016-04-19 19:08:58,563 INFO exited: aeroo-docs (exit status 0; not expected)
+2016-04-19 19:08:59,564 INFO gave up: aeroo-docs entered FATAL state, too many start retries too quickly
+2016-04-19 19:11:56,839 INFO spawned: 'aeroo-docs' with pid 1497
+2016-04-19 19:11:58,069 INFO success: aeroo-docs entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-07-20 15:20:16,470 WARN killing 'openerp' (9140) with SIGKILL
+2016-07-20 15:20:16,648 INFO stopped: openerp (terminated by SIGKILL)
+2016-07-20 15:20:18,669 INFO spawned: 'openerp' with pid 3370
+2016-07-20 15:20:19,672 INFO success: openerp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
