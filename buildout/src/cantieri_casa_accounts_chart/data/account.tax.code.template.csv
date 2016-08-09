@@ -1,0 +1,61 @@
+code,id,name,parent_id:id
+,vat_code_chart_root,CANTIERI NAVALI CASA S.R.L.,
+IVA a credito,template_ivacode_pagata,IVA a credito,vat_code_chart_root
+IVA a credito (I),template_impcode_pagata,IVA a credito (imponibile),vat_code_chart_root
+IVA a debito,template_ivacode_riscossa,IVA a debito,vat_code_chart_root
+IVA a debito (I),template_impcode_riscossa,IVA a debito (imponibile),vat_code_chart_root
+10% (I),template_impcode_riscossa_10,IVA nostro debito 10% (imponibile),template_impcode_riscossa
+10%,template_ivacode_riscossa_10,IVA nostro debito 10%,template_ivacode_riscossa
+10% (credito) (I),template_impcode_pagata_10,IVA nostro credito 10% (imponibile),template_impcode_pagata
+10% (credito),template_ivacode_pagata_10,IVA nostro credito 10%,template_ivacode_pagata
+"19,6% (credito)",template_ivacode_pagata_196,"iva francese a credito 19,6%",template_ivacode_pagata
+"19,6% (credito) (I)",template_impcode_pagata_196,"iva francese a credito 19,6% (imponibile)",template_impcode_pagata
+19% (credito),template_ivacode_pagata_19,IVA nostro credito 19%,template_ivacode_pagata
+19% (credito) (I),template_impcode_pagata_19,IVA nostro credito 19% (imponibile),template_impcode_pagata
+20%,template_ivacode_riscossa_20,IVA nostro debito 20%,template_ivacode_riscossa
+20% (I),template_impcode_riscossa_20,IVA nostro debito 20% (imponibile),template_impcode_riscossa
+20% (credito) (I),template_impcode_pagata_20,IVA nostro credito 20% (imponibile),template_impcode_pagata
+20% (credito),template_ivacode_pagata_20,IVA nostro credito 20%,template_ivacode_pagata
+21%,template_ivacode_riscossa_21,IVA nostro debito 21%,template_ivacode_riscossa
+21% (I),template_impcode_riscossa_21,IVA nostro debito 21% (imponibile),template_impcode_riscossa
+21% (credito) (I),template_impcode_pagata_21,IVA nostro credito 21% (imponibile),template_impcode_pagata
+21% (credito),template_ivacode_pagata_21,IVA nostro credito 21%,template_ivacode_pagata
+21% indetraibile 60% (I),template_impcode_pagata_21det40,IVA a credito 21% detraibile 40% (imponibile),template_impcode_pagata
+22% (I),template_impcode_riscossa_22,IVA nostro debito 22% (imponibile),template_impcode_riscossa
+22%,template_ivacode_riscossa_22,IVA nostro debito 22%,template_ivacode_riscossa
+22% (credito),template_ivacode_pagata_22,IVA nostro credito 22%,template_ivacode_pagata
+22% (credito) (I),template_impcode_pagata_22,IVA nostro credito 22% (imponibile),template_impcode_pagata
+22% indetraibile 60% (I),template_impcode_pagata_22det40c,Iva a credito 22% indetraibile 60% (imponibile),template_impcode_pagata
+4% (I),template_impcode_riscossa_4,IVA nostro debito 4% (imponibile),template_impcode_riscossa
+4%,template_ivacode_riscossa_4,IVA nostro debito 4%,template_ivacode_riscossa
+4% (credito) (I),template_impcode_pagata_4,IVA nostro credito 4% (imponibile),template_impcode_pagata
+4% (credito),template_ivacode_pagata_4,IVA nostro credito 4%,template_ivacode_pagata
+"5,5% (credito)",template_ivacode_pagata_55,"iva francese a credito 5,5%",template_ivacode_pagata
+"5,5% (credito) (I)",template_impcode_pagata_55,"iva francese a credito 5,5% (imponibile)",template_impcode_pagata
+7% (credito),template_ivacode_pagata_7,7% (credito),template_ivacode_pagata
+7% (credito) (I),template_impcode_pagata_7,7% (credito) (I),template_impcode_pagata
+Es. Art.26,template_ivacode_pagata_art26,IVA Esente art.26 a credito,template_ivacode_pagata
+Es.Art.26(I),template_impcode_pagata_art26,IVA Esente art.26 a credito (imponibile),template_impcode_pagata
+Esente art.10 a credito (I),template_impcode_pagata_art10,IVA Esente art.10 a credito (imponibile),template_impcode_pagata
+Esente art.10 a credito,template_ivacode_pagata_art10,IVA Esente art.10 a credito,template_ivacode_pagata
+Esente art.9.1 a credito (I),template_impode_pagata_art91,Esente art.9.1 a credito (I),template_impcode_pagata
+Esente art.9.1 a credito,template_ivacode_pagata_art91,Esente art.9.1 a credito,template_ivacode_pagata
+IVA a credito 20% detraibile 50%,template_ivacode_pagata_20det50c,Iva a credito 20% indetraibile 50%,template_ivacode_pagata
+IVA a credito 20% detraibile 50% (I),template_impcode_pagata_20det50c,Iva a credito 20% indetraibile 50% (imponibile),template_impcode_pagata
+IVA a credito 21% detraibile 40%,template_ivacode_pagata_21det40,IVA a credito 21% detraibile 40%,template_ivacode_pagata
+IVA a credito 21% detraibile 50%,template_ivacode_pagata_21det50,Iva a credito 21% 50%indetraibile,template_ivacode_pagata
+IVA a credito 21% detraibile 50% (I),template_impcode_pagata_21det50,Iva a credito 21% 50%indetraibile (imponibile),template_impcode_pagata
+IVA a credito 22% detraibile 40%,template_ivacode_pagata_22det40c,Iva a credito 22% indetraibile 60%,template_ivacode_pagata
+IVA a credito 22% detraibile 50%,template_ivacode_pagata_22det50c,Iva a credito 22% 50%indetraibile,template_ivacode_pagata
+IVA a credito 22% detraibile 50% (I),template_impcode_pagata_22det50c,Iva a credito 22% 50%indetraibile (imponibile),template_impcode_pagata
+IVA esente Art.15 (I),template_impcode_riscossa_art15,IVA esente Art.15 a debito (imponibile),template_impcode_riscossa
+IVA esente Art.15,template_ivacode_riscossa_art15,IVA esente Art.15 a debito,template_ivacode_riscossa
+IVA esente Art.15 a credito (I),template_impcode_pagata_art15,IVA esente Art.15 a credito (imponibile),template_impcode_pagata
+IVA esente Art.15 a credito,template_ivacode_pagata_art15,IVA esente Art.15 a credito,template_ivacode_pagata
+IVA Esente Art. 74 (I),template_impcode_riscossa_art74,IVA Esente Art. 74 a debito (imponibile),template_impcode_riscossa
+IVA Esente Art. 74,template_ivacode_riscossa_art74,IVA Esente Art. 74 a debito,template_ivacode_riscossa
+IVA esente Art.8,template_ivacode_riscossa_art8,IVA esente Art.8 (DPR 633/72) a debito,template_ivacode_riscossa
+IVA esente Art.8 (I),template_impcode_riscossa_art8,IVA esente Art.8 (DPR 633/72) a debito (imponibile),template_impcode_riscossa
+IVA esente Art.9,template_ivacode_riscossa_art9,IVA esente Art.9 (DPR 633/72) a debito,template_ivacode_riscossa
+IVA esente Art.9 (I),template_impcode_riscossa_art9,IVA esente Art.9 (DPR 633/72) a debito (imponibile),template_impcode_riscossa
+IVCN,template_ivacode_pagata_ind,IVA a credito indetraibile,

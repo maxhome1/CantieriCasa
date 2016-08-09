@@ -1,0 +1,144 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* cantieri_casa_project
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 6.0.4\n"
+"Report-Msgid-Bugs-To: support@openerp.com\n"
+"POT-Creation-Date: 2013-02-06 14:41+0000\n"
+"PO-Revision-Date: 2013-02-06 15:46+0100\n"
+"Last-Translator: Alex Comba <alex.comba@domsense.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+
+#. module: cantieri_casa_project
+#: code:addons/cantieri_casa_project/project.py:63
+#: code:addons/cantieri_casa_project/project.py:71
+#, python-format
+msgid "UserError"
+msgstr "User Error"
+
+#. module: cantieri_casa_project
+#: field:project.task.work.move,product_id:0
+msgid "Product"
+msgstr "Prodotto"
+
+#. module: cantieri_casa_project
+#: field:project.project,journal_id:0
+msgid "Analytic Journal"
+msgstr "Giornale Analitico"
+
+#. module: cantieri_casa_project
+#: code:addons/cantieri_casa_project/project.py:66
+#, python-format
+msgid ""
+"No stock location defined for project \"%s\". \n"
+"Fill in the administration tab of the project form."
+msgstr ""
+"Nessun punto di stoccaggio definito per il  progetto \"%s\". \n"
+"Compila il campo nel tab Amministrazione sul form del progetto."
+
+#. module: cantieri_casa_project
+#: view:project.task:0
+msgid "Task Work"
+msgstr "Esecuzione Attività"
+
+#. module: cantieri_casa_project
+#: code:addons/cantieri_casa_project/project.py:63
+#, python-format
+msgid "There is no project defined"
+msgstr "Non è stato associato nessun progetto"
+
+#. module: cantieri_casa_project
+#: code:addons/cantieri_casa_project/project.py:103
+#, python-format
+msgid ""
+"No product and product category property account defined on the related employee.\n"
+"Fill in the timesheet tab of the employee form."
+msgstr ""
+"Nessun conto perdite definito sulla scheda del prodotto o sulla categoria.\n"
+"Fill in the timesheet tab of the employee form."
+
+#. module: cantieri_casa_project
+#: field:project.task.work,task_work_move_ids:0
+msgid "Task Work Moves"
+msgstr "Task Work Moves"
+
+#. module: cantieri_casa_project
+#: model:ir.model,name:cantieri_casa_project.model_project_task_work
+msgid "Project Task Work"
+msgstr "Lavoro attività progetto"
+
+#. module: cantieri_casa_project
+#: field:project.project,stock_location_id:0
+msgid "Stock Location"
+msgstr "Punto di Stoccaggio"
+
+#. module: cantieri_casa_project
+#: code:addons/cantieri_casa_project/project.py:69
+#, python-format
+msgid ""
+"No journal defined for project \"%s\". \n"
+"Fill in the administration tab of the project form."
+msgstr ""
+"Nessun giornale analitico definito per il progetto \"%s\". \n"
+"Compila il campo nel tab Amministrazione sul form del progetto."
+
+#. module: cantieri_casa_project
+#: model:ir.model,name:cantieri_casa_project.model_project_project
+msgid "Project"
+msgstr "Progetto"
+
+#. module: cantieri_casa_project
+#: model:ir.model,name:cantieri_casa_project.model_project_task_work_move
+msgid "project.task.work.move"
+msgstr "project.task.work.move"
+
+#. module: cantieri_casa_project
+#: view:project.task.work:0
+msgid "Unload Material"
+msgstr "Scarica Materiale"
+
+#. module: cantieri_casa_project
+#: code:addons/cantieri_casa_project/project.py:71
+#, python-format
+msgid "There is already a stock picking"
+msgstr "Esiste già un picking"
+
+#. module: cantieri_casa_project
+#: field:project.task.work,stock_picking_id:0
+msgid "Stock Picking"
+msgstr "Picking"
+
+#. module: cantieri_casa_project
+#: field:project.task.work.move,task_work_move_id:0
+msgid "Task Work Move"
+msgstr "Task Work Move"
+
+#. module: cantieri_casa_project
+#: view:project.task.work:0
+msgid "Unloaded Meterial"
+msgstr "Materiale scaricato"
+
+#. module: cantieri_casa_project
+#: code:addons/cantieri_casa_project/project.py:65
+#: code:addons/cantieri_casa_project/project.py:68
+#: code:addons/cantieri_casa_project/project.py:102
+#, python-format
+msgid "Bad Configuration !"
+msgstr "Errata Configurazione !"
+
+#. module: cantieri_casa_project
+#: constraint:project.project:0
+msgid "Error! project start-date must be lower then project end-date."
+msgstr "Errore ! La data inizio del progetto deve essere antecedente alla data fine."
+
+#. module: cantieri_casa_project
+#: field:project.task.work.move,product_qty:0
+msgid "Quantity"
+msgstr "Quantità"
+

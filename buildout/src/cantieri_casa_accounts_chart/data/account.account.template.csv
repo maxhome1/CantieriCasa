@@ -1,0 +1,167 @@
+id,code,name,parent_id:id,reconcile,user_type:id,type
+0,0,CANTIERI NAVALI CASA S.R.L.,,FALSE,account.data_account_type_view,view
+183,1,CONTI PATRIMONIALI,0,TRUE,account.data_account_type_view,view
+193,2,CONTI ECONOMICI,0,TRUE,account.data_account_type_view,view
+3,3,CONTI DI TRANSIZIONE,0,TRUE,account.data_account_type_view,view
+52,4,CONTI DI APPOGGIO,0,TRUE,account.data_account_type_view,view
+53,5,Costi della produzione,0,TRUE,account.data_account_type_view,view
+120,6,Valore della produzione,0,TRUE,account.data_account_type_view,view
+4,1001,ATTIVITA',183,TRUE,account.data_account_type_view,view
+5,1002,PASSIVITA',183,TRUE,account.data_account_type_view,view
+6,2001,COSTI,193,TRUE,account.data_account_type_view,view
+7,2002,RICAVI,193,TRUE,account.data_account_type_view,view
+10,1001/01,DISPONIBILITA' LIQUIDE,5,TRUE,account.data_account_type_view,view
+11,1001/01/01,CASSA,10,TRUE,account.data_account_type_cash,liquidity
+12,1001/01/02,ASSEGNI,10,TRUE,account.data_account_type_cash,liquidity
+13,1001/01/03,BANCHE,10,TRUE,account.data_account_type_view,view
+144,1001/01/03/01,MONTE DEI PASCHI DI SIENA 73990 1152048,13,TRUE,account.data_account_type_view,liquidity
+146,1001/01/03/02,BANCA POPOLARE DEL LAZIO 522566,13,TRUE,account.data_account_type_view,liquidity
+147,1001/01/03/03,INTESA SANPAOLO,13,TRUE,account.data_account_type_view,liquidity
+151,1001/01/03/04,BANCA POPOLARE DEL LAZIO 521840,13,TRUE,account.data_account_type_view,liquidity
+148,1001/01/03/05,Banca Nazionale del Lavoro,13,TRUE,account.data_account_type_view,liquidity
+149,1001/01/03/06,CONTO c/c PAYPAL,13,TRUE,account.data_account_type_view,liquidity
+150,1001/01/03/07,Banca Popolare di Fondi 100008685,13,TRUE,account.data_account_type_view,liquidity
+184,1001/01/03001,Contante,13,FALSE,account.data_account_type_cash,liquidity
+185,1001/01/03002,Banca,13,FALSE,account.data_account_type_bank,liquidity
+131,1001/01/04,CARTE DI CREDITO,10,TRUE,account.data_account_type_view,liquidity
+17,1001/03,CREDITI VERSO ERARIO,4,TRUE,account.data_account_type_view,view
+18,1001/03/01,IVA A CREDITO,17,TRUE,account.data_account_type_asset,other
+19,1001/03/02,ERARIO C/IVA A CREDITO,17,TRUE,account.data_account_type_asset,other
+186,1001/02,CREDITI,4,TRUE,account.data_account_type_view,view
+15,1001/02/01,CLIENTI,4,TRUE,account.data_account_type_receivable,receivable
+16,1001/02/02,CREDITI DIVERSI,186,TRUE,account.data_account_type_receivable,receivable
+77,1001/02/03,FORNITORI C/ANTICIPI,186,TRUE,account.data_account_type_receivable,receivable
+78,1001/02/04,CREDITI DI IMPOSTA,186,TRUE,account.data_account_type_receivable,receivable
+79,1001/02/05,NOTE DI CREDITO DA RICEVERE,186,TRUE,account.data_account_type_receivable,receivable
+109,1001/02/06,FORNITORI C/CAPARRA,186,TRUE,account.data_account_type_receivable,receivable
+111,1001/02/07,DIPENDENTI C/ANTICIPI,186,TRUE,account.data_account_type_receivable,receivable
+180,4001/01,CONTO TEMPORANEO TRANSITORIO,52,TRUE,account.data_account_type_expense,other
+170,1001/04,Utile di esercizio,4,TRUE,account.data_account_type_liability,other
+196,1001/05,Ratei e riscontri attivi,4,TRUE,account.data_account_type_view,view
+197,1001/05/01,Ratei attivi,196,TRUE,account.data_account_type_liability,other
+198,1001/05/02,Riscontri attivi,196,TRUE,account.data_account_type_liability,other
+187,1002/01,DEBITI,5,TRUE,account.data_account_type_view,view
+188,1002/01/01,FORNITORI,5,TRUE,account.data_account_type_payable,payable
+22,1002/01/02,DEBITI DIVERSI,5,TRUE,account.data_account_type_view,view
+23,1002/01/02/01,Lasermar c/finanziamento soci,22,TRUE,account.data_account_type_payable,payable
+24,1002/01/02/02,Se.ma.ter. c/finanzanziamento soci,22,TRUE,account.data_account_type_payable,payable
+189,1002/01/02/03,Casa Giovanni c/finanziamento soci,22,TRUE,account.data_account_type_payable,payable
+190,1002/01/02/04,Dettorre Patrizia c/finanziamento soci,22,TRUE,account.data_account_type_payable,payable
+191,1002/01/02/05,Casa Massimiliano c/finanziamento soci,22,TRUE,account.data_account_type_payable,payable
+192,1002/01/02/06,Costi Produzione,22,TRUE,account.data_account_type_payable,payable
+75,1002/01/03,DIPENDENTI C/RETRIBUZIONE,187,TRUE,account.data_account_type_payable,payable
+80,1002/01/04,CLIENTI C/ANTICIPI,187,TRUE,account.data_account_type_payable,payable
+81,1002/01/05,NOTE DI CREDITO DA EMETTERE,187,TRUE,account.data_account_type_payable,payable
+110,1002/01/06,CLIENTI C/CAPARRA,187,TRUE,account.data_account_type_payable,payable
+182,1002/01/07,MONTE DEI PASCHI C/ANTICIPI,187,TRUE,account.data_account_type_payable,payable
+25,1002/02,DEBITI VERSO ERARIO,5,TRUE,account.data_account_type_view,view
+26,1002/02/01,IVA A DEBITO,25,TRUE,account.data_account_type_liability,other
+27,1002/02/02,ERARIO C/IVA DA VERSARE,25,TRUE,account.data_account_type_liability,other
+54,1002/02/03,IVA A DEBITO PER CORRISPETTIVI,25,TRUE,account.data_account_type_liability,other
+61,1002/02/04,ERARIO C/IRES DA VERSARE (IRPEG),25,TRUE,account.data_account_type_payable,payable
+62,1002/02/05,ERARIO C/RITENUTE SU PROVVIGIONI 1038,25,TRUE,account.data_account_type_payable,payable
+63,1002/02/06,RITENUTE LAV. DIPENDENTI 1001,25,TRUE,account.data_account_type_payable,payable
+64,1002/02/07,RITENUTE D'ACCONTO LAV. AUTONOMI 1040,25,TRUE,account.data_account_type_payable,payable
+65,1002/02/08,RITENUTE D'ACCONTO COLLAB. 1017,25,TRUE,account.data_account_type_payable,payable
+66,1002/02/09,RITENUTE D'ACCONTO ADDIZ. REG. IRPEF 3802,25,TRUE,account.data_account_type_payable,payable
+67,1002/02/10,RITENUTE D'ACCONTO ADDIZ. COMUN. IRPEF 3816,25,TRUE,account.data_account_type_payable,payable
+68,1002/02/11,ERARIO C/IRAP,25,TRUE,account.data_account_type_payable,payable
+140,1002/02/12,IVA IN SOSPENSIONE,25,TRUE,account.data_account_type_liability,other
+56,1002/03,ENTI VARI,5,TRUE,account.data_account_type_view,view
+57,1002/03/01,DEBITI VERSO INPS,56,TRUE,account.data_account_type_view,view
+58,1002/03/01/01,CONTRIBUTI LAV. DIP. DM Inps,57,TRUE,account.data_account_type_liability,other
+59,1002/03/01/02,CONTRIBUTI COLLAB. COORD. E CONT.,57,TRUE,account.data_account_type_liability,other
+60,1002/03/02,DEBITI VERSO INAIL,56,TRUE,account.data_account_type_liability,other
+164,1002/03/03,DEBITI VERSO GERIT SPA,56,TRUE,account.data_account_type_liability,other
+156,1002/04,CAPITALE E RISERVE,5,TRUE,account.data_account_type_view,view
+157,1002/04/01,CASA GIOVANNI C/CONFERIMENTO,156,TRUE,account.data_account_type_liability,other
+158,1002/04/02,DETTORRE PATRIZIA C/CONFERIMENTO,156,TRUE,account.data_account_type_liability,other
+159,1002/04/03,LASERMAR C/CONFERIMENTO,156,TRUE,account.data_account_type_liability,other
+160,1002/04/04,SE.MA.TER. C/CONFERIMENTO,156,TRUE,account.data_account_type_liability,other
+161,1002/04/05,CASA MASSIMILIANO C/CONFERIMENTO,156,TRUE,account.data_account_type_liability,other
+165,1002/04/06,RISERVA PER CONTRIBUTI PUBBLICI,156,TRUE,account.data_account_type_liability,other
+173,1002/05,Perdita di esercizio,156,TRUE,account.data_account_type_liability,other
+28,2001/01,ACQUISTI,6,TRUE,account.data_account_type_view,view
+29,2001/01/01,C/MERCI ACQUISTI,28,TRUE,account.data_account_type_expense,other
+30,2001/01/02,C/SERVIZI ACQUISTI,28,TRUE,account.data_account_type_expense,other
+42,2001/02,MINUSVALENZE SPESE E PERDITE DIVERSE,6,TRUE,account.data_account_type_view,view
+43,2001/02/01,SPESE E PERDITE DIVERSE,42,TRUE,account.data_account_type_view,view
+44,2001/02/01/01,SCONTO CASSA MERCI E SERVIZI C/VENDITA,43,TRUE,account.data_account_type_expense,other
+46,2001/02/01/02,CESSIONI GRATUITE DI BENI,43,TRUE,account.data_account_type_expense,other
+47,2001/02/01/03,SPESE TRASPORTO,43,TRUE,account.data_account_type_expense,other
+48,2001/02/01/04,SPESE DI ASSICURAZIONE,43,TRUE,account.data_account_type_expense,other
+49,2001/02/01/05,SPESE EFFETTI,43,TRUE,account.data_account_type_expense,other
+50,2001/02/01/06,SPESE INSOLUTO,43,TRUE,account.data_account_type_expense,other
+51,2001/02/01/07,ABBUONI SCONTI/PREMI E ARROTONDAMENTI PASSIVI,43,TRUE,account.data_account_type_expense,other
+122,2001/02/01/08,SPESE TRASFERTA,43,TRUE,account.data_account_type_expense,other
+123,2001/02/01/09,SPESE REGISTRAZIONE,43,TRUE,account.data_account_type_expense,other
+128,2001/02/01/10,SPESE IMBALLO,43,TRUE,account.data_account_type_expense,other
+129,2001/02/01/11,SPESE DI CONTRASSEGNO,43,TRUE,account.data_account_type_expense,other
+130,2001/02/01/12,ALTRE SPESE,43,TRUE,account.data_account_type_expense,other
+181,2001/02/01/13,SPESE PER TRASPORTI ECCEZIONALI,43,TRUE,account.data_account_type_expense,other
+69,2001/03,PRESTAZIONI LAVORATORI E RELATIVI CONTRIBUTI,6,TRUE,account.data_account_type_view,view
+70,2001/03/01,RETRIBUZIONI,69,TRUE,account.data_account_type_expense,other
+71,2001/03/02,CONTRIBUTI INPS,69,TRUE,account.data_account_type_expense,other
+72,2001/03/03,PREMI INAIL,69,TRUE,account.data_account_type_expense,other
+73,2001/03/04,RITENUTE PREVIDENZIALI ED ASSISTENZIALI,69,TRUE,account.data_account_type_expense,other
+74,2001/03/05,INDENNITA' DI FINE RAPPORTO (TFR),69,TRUE,account.data_account_type_expense,other
+82,2001/03/06,SPESE PER AGG. PROFESSIONALE,69,TRUE,account.data_account_type_expense,other
+83,2001/04,SPESE PRESTAZIONI DI SERVIZIO,6,TRUE,account.data_account_type_view,view
+84,2001/04/01,SPESE TELEFONICHE,83,TRUE,account.data_account_type_expense,other
+85,2001/04/02,SPESE POSTALI,83,TRUE,account.data_account_type_expense,other
+86,2001/04/03,SPESE ENERGIA ELETTRICA,83,TRUE,account.data_account_type_expense,other
+87,2001/04/04,SPESE PER UTENZE IDRICHE,83,TRUE,account.data_account_type_expense,other
+88,2001/04/05,SPESE PER ASSICURAZIONI,83,TRUE,account.data_account_type_expense,other
+89,2001/04/06,SPESE PER VIGILANZA,83,TRUE,account.data_account_type_expense,other
+90,2001/04/07,SPESE PUBBLICITARIE,83,TRUE,account.data_account_type_expense,other
+91,2001/04/08,SPESE PER CONSULENZE,83,TRUE,account.data_account_type_expense,other
+92,2001/04/09,SPESE DI RAPPRESENTANZA,83,TRUE,account.data_account_type_expense,other
+93,2001/04/10,SPESE PER PULIZIA,83,TRUE,account.data_account_type_expense,other
+94,2001/04/11,SPESE PER CANCELLERIA,83,TRUE,account.data_account_type_expense,other
+121,2001/04/12,SPESE PER EMISSIONE RICEVUTE BANCARIE,83,TRUE,account.data_account_type_expense,other
+163,2001/04/13,Fiera di Genova,83,TRUE,account.data_account_type_expense,other
+174,2001/04/14,Fiera di Roma,83,TRUE,account.data_account_type_expense,other
+175,2001/04/15,SPESE SOFTWARE,83,TRUE,account.data_account_type_expense,other
+176,2001/04/16,PEDAGGI AUTOSTRADALI E PARGHEGGI,83,TRUE,account.data_account_type_expense,other
+177,2001/04/18,Fiera di DUBAI,83,TRUE,account.data_account_type_expense,other
+194,2001/04/19,Spese internet,83,FALSE,account.data_account_type_expense,other
+95,2001/05,ONERI TRIBUTARI INDIRETTI,6,TRUE,account.data_account_type_view,view
+96,2001/05/01,VALORI BOLLATI E MARCHE,95,TRUE,account.data_account_type_expense,other
+97,2001/05/02,VIDIMAZIONE LIBRI SOCIALI,95,TRUE,account.data_account_type_expense,other
+98,2001/05/03,TRIBUTI LOCALI,95,TRUE,account.data_account_type_expense,other
+99,2001/05/04,CONCESSIONI GOVERNATIVE,95,TRUE,account.data_account_type_expense,other
+100,2001/05/05,DIRITTI C.C.I.A.A.,95,TRUE,account.data_account_type_expense,other
+178,2001/05/06,TASSA RIFIUTI SOLIDI URBANI/TARSU,95,TRUE,account.data_account_type_expense,other
+101,2001/06,ALTRI COSTI D'ESERCIZIO,6,TRUE,account.data_account_type_view,view
+102,2001/06/01,IVA NON DETRAIBILE,101,TRUE,account.data_account_type_expense,other
+103,2001/07,ONERI FINANZIARI,6,TRUE,account.data_account_type_view,view
+104,2001/07/01,INTERESSI PASSIVI BANCARI,103,TRUE,account.data_account_type_expense,other
+105,2001/07/02,ONERI BANCARI,103,TRUE,account.data_account_type_expense,other
+106,2001/08,IMPOSTE DELL'ESERCIZIO,6,TRUE,account.data_account_type_view,view
+107,2001/08/01,IRAP,106,TRUE,account.data_account_type_expense,other
+114,2001/09,LOCAZIONI,6,TRUE,account.data_account_type_view,view
+115,2001/09/01,CANONI DI LEASING,114,TRUE,account.data_account_type_expense,other
+116,2001/09/02,FITTI PASSIVI,114,TRUE,account.data_account_type_expense,other
+137,2001/10,AMMORTAMENTI,6,TRUE,account.data_account_type_view,view
+138,2001/10/01,AMMORTAMENTI IMMOBILIZZAZIONI IMMATERIALI,137,TRUE,account.data_account_type_expense,other
+139,2001/10/02,AMMORTAMENTI IMMOBILIZZAZIONI MATERIALI,137,TRUE,account.data_account_type_expense,other
+31,2002/01,VENDITE,7,TRUE,account.data_account_type_view,view
+195,2002/01/01000,C/MERCI VENDITE,31,TRUE,account.data_account_type_income,other
+33,2002/01/02,C/SERVIZI VENDITE,31,TRUE,account.data_account_type_income,other
+55,2002/01/03,C/MERCI PER CORRISPETTIVI,31,TRUE,account.data_account_type_income,other
+108,2002/01/04,C/SERVIZI PER CORRISPETTIVI,31,TRUE,account.data_account_type_income,other
+34,2002/02,PROVENTI E RICAVI DIVERSI,7,TRUE,account.data_account_type_view,view
+35,2002/02/01,RICAVI DIVERSI,34,TRUE,account.data_account_type_view,view
+36,2002/02/01/01,ABBUONI SCONTI/PREMI E ARROTONDAMENTI ATTIVI,35,TRUE,account.data_account_type_income,other
+37,2002/02/02,PROVENTI PER CESSIONI  E PRESTAZIONI ACCESSORIE,34,TRUE,account.data_account_type_view,view
+38,2002/02/02/01,RIMBORSO SPESE TRASPORTO,37,TRUE,account.data_account_type_expense,other
+39,2002/02/02/02,RIMBORSO SPESE TRASFERTA,37,TRUE,account.data_account_type_expense,other
+40,2002/02/02/03,RIMBORSO COSTO EFFETTI,37,TRUE,account.data_account_type_expense,other
+41,2002/02/02/04,RIMBORSO SPESE INSOLUTO,37,TRUE,account.data_account_type_expense,other
+124,2002/02/02/05,RIMBORSO SPESE IMBALLO,37,TRUE,account.data_account_type_expense,other
+125,2002/02/02/06,RIMBORSO SPESE DI ASSICURAZIONE,37,TRUE,account.data_account_type_expense,other
+126,2002/02/02/07,RIMBORSO SPESE CONTRASSEGNO,37,TRUE,account.data_account_type_expense,other
+127,2002/02/02/08,RIMBORSO ALTRE SPESE,37,TRUE,account.data_account_type_expense,other
+8,3001/01,COSTI,3,TRUE,account.data_account_type_expense,other
+9,3001/02,RICAVI,3,TRUE,account.data_account_type_income,other
+179,3001/03,transitorio,3,TRUE,account.data_account_type_expense,other

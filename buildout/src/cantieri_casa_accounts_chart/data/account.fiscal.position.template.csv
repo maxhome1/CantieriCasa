@@ -1,0 +1,4 @@
+id,name,chart_template_id:id
+it,Italia,l10n_it_cantieri_casa_chart_template
+extra,Regime Extra comunitario,l10n_it_cantieri_casa_chart_template
+intra,Regime Intra comunitario,l10n_it_cantieri_casa_chart_template

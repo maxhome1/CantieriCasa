@@ -1,0 +1,7 @@
+*.pyc
+*.pyo
+*~
+.DS_Store
+*.egg-info
+erppeek.ini
+*ignoreme*
