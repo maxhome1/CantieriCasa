@@ -1,0 +1,13 @@
+[source]
+username = admin
+password = c4s4c4s4
+host = cantiericasa.abstractstaging.it
+port = 9969
+database = cantiericasa6
+
+[destination]
+username = admin
+password = openerp
+host = localhost
+port = 8069
+database = openerp

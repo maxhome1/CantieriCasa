@@ -1,0 +1,3 @@
+#!/bin/sh
+
+${buildout:parts-directory}/aeroo_docs/aeroo-docs start -n -d ${buildout:directory}/var/spool_aeroo_docs -l ${buildout:directory}/var/log/aeroo_docs.log
