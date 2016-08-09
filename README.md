@@ -1,4 +1,4 @@
 # CantieriCasa
-Progetto Odoo CantieriCASA
-V.8.0
-V.6.04
+Progetto Odoo CantieriCASA \p
+V.8.0 \p
+V.6.04 \p
