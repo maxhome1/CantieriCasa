@@ -1,0 +1,11 @@
+setuptools
+zc.buildout >= 1.5
+
+[docs]
+Sphinx
+
+[test]
+zope.testing
+
+[testing]
+zope.testing

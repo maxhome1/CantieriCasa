@@ -1,0 +1,3 @@
+reportlab/graphics/_renderPM.so
+reportlab/lib/pyHnj.so
+reportlab/lib/_rl_accel.so
