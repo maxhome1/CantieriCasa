@@ -1,7 +1,7 @@
 #!/home/openerp/.virtualenvs/cc/bin/python
 
 import sys
-sys.path[0:0] = [
+sys.path [0:0] = [
   '/home/openerp/.virtualenvs/cc/lib/python2.7/site-packages',
   '/home/openerp/Odoo/buildout/eggs/zc.buildout-2.4.0-py2.7.egg',
   ]
